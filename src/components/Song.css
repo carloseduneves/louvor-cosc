@@ -1,0 +1,40 @@
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.39);
+    margin-top: 20px;
+    max-width: 400px;
+    min-width: 300px;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+a {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+   width: 200px;
+   height: 50px;
+}
+.title {
+    background-color: rgb(66, 3, 121);
+    color: white;
+   width: 100%;
+   margin: 0px;
+   border-radius: 10px 10px 0px 0px;
+   height: 30px;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 0px 10px;
+   font-size: 1em;
+}
