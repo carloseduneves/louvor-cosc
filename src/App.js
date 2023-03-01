@@ -14,13 +14,18 @@ function App() {
 
   return (
     <div className="App">
-     <input type="text" 
-      placeholder="buscar música" onChange={(i) => setInputValue(i.target.value)}
-     value={inputValue}
-     />
-     {inputValue !== '' &&
-     musicasFiltradas.map((music) => <Song key={music.key} name={music.name} letter={music.adress} video={music.playMusic}/>)
-     }
+     <header>
+       <input type="text"
+        placeholder="buscar música" onChange={(i) => setInputValue(i.target.value)}
+       value={inputValue}
+       className="find"
+       />
+     </header>
+     <main>
+       {inputValue !== '' &&
+       musicasFiltradas.map((music) => <Song key={music.key} name={music.name} letter={music.adress} video={music.playMusic}/>)
+       }
+     </main>
     </div>
   );
 }

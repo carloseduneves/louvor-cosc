@@ -1,17 +1,18 @@
 
 
 .box {
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1em;
     flex-direction: column;
     flex-wrap: wrap;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.39);
     margin-top: 20px;
-    max-width: 400px;
+    max-width: 600px;
     min-width: 300px;
     border-radius: 10px 10px 0px 0px;
+    background-color: white;
    
 }
 a {
@@ -27,8 +28,8 @@ a {
    height: 50px;
 }
 .title {
-    background-color: rgb(66, 3, 121);
-    color: white;
+    
+    color: rgb(144, 40, 234);;
    width: 100%;
    margin: 0px;
    border-radius: 10px 10px 0px 0px;
