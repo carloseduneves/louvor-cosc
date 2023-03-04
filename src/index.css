@@ -1,33 +1,29 @@
-* {
-  margin: 0px;
-}
+
 body {
  font-family: Arial, Helvetica, sans-serif;
- align-items: center;
- justify-content: center;
- display: flex;
- background-color: rgba(212, 212, 212, 0.184);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ 
+ background-color: rgba(151, 201, 215, 0.269);
+ margin: 0px;
+ padding: 0px;
 }
 header {
-  background-color: white;
-  width: 100vw;
+  background-color: #fff;
   margin: 0px;
-  padding: 15px;
+ padding: 15px 0px;
   box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.069);
 }
 .find {
-  font-size: 1.5em;
-  border-color: rgb(232, 232, 232);
+  font-size: 1em;
+ background-color: rgba(151, 201, 215, 0.269);
   border-radius: 10px;
-  border-width: 1px;
+  border: none;
+  text-align: center;
+  height: 30px;
+
+  
 
 }
 main {
-  align-items: center;
+ padding: 20px;
   justify-content: center;
 }
