@@ -26,6 +26,7 @@ function App() {
        musicasFiltradas.map((music) => <Song key={music.key} name={music.name} letter={music.adress} video={music.playMusic}/>)
        }
      </main>
+     <img src="./assets/musica.png" alt="musica" />
     </div>
   );
 }
