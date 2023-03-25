@@ -11,17 +11,39 @@ header {
   margin: 0px;
  padding: 15px 0px;
   box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.069);
+  justify-content: center;
+  align-items: center;
 }
 .find {
+  display: flex;
   font-size: 1em;
  background-color: rgba(151, 151, 151, 0.269);
-  border-radius: 10px;
   border: none;
   text-align: center;
   height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+  max-width: 300px;
 
+}
+.find input {
   
-
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  background: transparent;
+  
+}
+.find input:focus{
+  box-shadow: none;
+  outline: 0px;
+}
+.find img {
+  height: 20px;
+  display: flex;
+  float: left;
 }
 main {
  padding: 20px;
