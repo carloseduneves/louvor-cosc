@@ -1,7 +1,7 @@
 
 
 .box {
-    margin: auto;
+    margin:auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ a {
 }
 .title {
     
-    color: rgb(144, 40, 234);;
+    color: #441694;;
    width: 100%;
    margin: 0px;
    border-radius: 10px 10px 0px 0px;
@@ -44,7 +44,8 @@ a {
     flex-direction: column;
     border-radius: 5px;
     border: none;
-    background-color: rgb(231, 231, 231);
+    background-color: #9659FF;
+    color: #fff;
     width: 80px;
     justify-content: center;
     align-items: center;
